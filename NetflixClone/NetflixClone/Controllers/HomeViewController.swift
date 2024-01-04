@@ -3,7 +3,7 @@
 //  NetflixClone
 //
 //  Created by AMAR on 30/12/23.
-//
+// 1:42:28
 
 import UIKit
 
@@ -29,7 +29,7 @@ class HomeViewController: UIViewController {
         let heaaderView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = heaaderView
         
-        getTreandingMovies()
+        getData()
     }
     
     override func viewDidLayoutSubviews() {
@@ -37,15 +37,27 @@ class HomeViewController: UIViewController {
         homeFeedTable.frame = view.bounds
     }
     
-    private func getTreandingMovies(){
-        APICaller.shared.getTreadingMovies{ results in
-            switch results{
-            case .success(let movies):
-                print(movies)
-            case .failure(let error):
-                print(error)
-            }
-        }
+    private func getData(){
+//        APICaller.shared.getTreadingMovies{ results in
+//            switch results{
+//            case .success(let movies):
+//                print(movies)
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
+//        APICaller.shared.getUpcomingMovies { results in
+//            
+//        }
+//        APICaller.shared.getTrendingTVs { results in
+//            switch results{
+//            case .success(let tv):
+//                print(tv)
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
+        APICaller.shared.getPopular{ result in}
     }
     
     func configurNavBar(){
