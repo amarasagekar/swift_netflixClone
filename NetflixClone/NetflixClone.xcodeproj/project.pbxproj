@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		0916880D2B4E451600E5C750 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0916880C2B4E451600E5C750 /* SearchResultViewController.swift */; };
 		091688112B4E703D00E5C750 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091688102B4E703D00E5C750 /* YoutubeSearchResponse.swift */; };
+		092584E32B4FFB0400F5A15E /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092584E22B4FFB0400F5A15E /* TitlePreviewViewController.swift */; };
 		0945432D2B4AE5E9004C803F /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945432C2B4AE5E9004C803F /* TitleTableViewCell.swift */; };
 		0945432F2B4AEA8E004C803F /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0945432E2B4AEA8E004C803F /* TitleViewModel.swift */; };
+		098C95F82B504B2E0008FF83 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098C95F72B504B2E0008FF83 /* TitlePreviewViewModel.swift */; };
 		09B28ECC2B40641000C38887 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B28ECB2B40641000C38887 /* AppDelegate.swift */; };
 		09B28ECE2B40641000C38887 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B28ECD2B40641000C38887 /* SceneDelegate.swift */; };
 		09B28ED02B40641000C38887 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B28ECF2B40641000C38887 /* MainTabBarViewController.swift */; };
@@ -33,8 +35,10 @@
 /* Begin PBXFileReference section */
 		0916880C2B4E451600E5C750 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
 		091688102B4E703D00E5C750 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		092584E22B4FFB0400F5A15E /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		0945432C2B4AE5E9004C803F /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
 		0945432E2B4AEA8E004C803F /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		098C95F72B504B2E0008FF83 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		09B28EC82B40641000C38887 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09B28ECB2B40641000C38887 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09B28ECD2B40641000C38887 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				0916880C2B4E451600E5C750 /* SearchResultViewController.swift */,
+				092584E22B4FFB0400F5A15E /* TitlePreviewViewController.swift */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				0945432E2B4AEA8E004C803F /* TitleViewModel.swift */,
+				098C95F72B504B2E0008FF83 /* TitlePreviewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -264,7 +270,9 @@
 				09B28ECE2B40641000C38887 /* SceneDelegate.swift in Sources */,
 				091688112B4E703D00E5C750 /* YoutubeSearchResponse.swift in Sources */,
 				09B28EE32B40668B00C38887 /* UpcomingViewController.swift in Sources */,
+				098C95F82B504B2E0008FF83 /* TitlePreviewViewModel.swift in Sources */,
 				09D2A9782B42CFF9004C41AF /* Title.swift in Sources */,
+				092584E32B4FFB0400F5A15E /* TitlePreviewViewController.swift in Sources */,
 				09B28EE12B40666200C38887 /* HomeViewController.swift in Sources */,
 				0916880D2B4E451600E5C750 /* SearchResultViewController.swift in Sources */,
 				0945432F2B4AEA8E004C803F /* TitleViewModel.swift in Sources */,
